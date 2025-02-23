@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Template Documentação do Portfólio
 
-## Getting Started
+## Visão Geral
+Este projeto é um portfólio pessoal desenvolvido em **React, Next.js, TypeScript e Tailwind CSS**. O objetivo é apresentar projetos, habilidades e informações de contato de forma profissional.
 
-First, run the development server:
+## Tecnologias Utilizadas
+- **Next.js**: Framework para React com suporte a renderização híbrida
+- **TypeScript**: Tipagem estática para maior segurança no código
+- **Tailwind CSS**: Estilização rápida e flexível
+- **Framer Motion**: Animações suaves e performáticas
+- **React Icons / Heroicons**: Ícones para melhor visualização
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Estrutura do Projeto
+```
+/portfolio
+  /app (ou /pages, dependendo do Next.js usado)
+  /components
+  /styles
+  tailwind.config.js
+  tsconfig.json
+  package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como Rodar o Projeto
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seuusuario/portfolio.git
+   cd portfolio
+   ```
+2. Instale as dependências:
+   ```sh
+   npm install
+   ```
+3. Inicie o servidor local:
+   ```sh
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Como Contribuir
+Caso deseje contribuir, siga as etapas:
+1. Faça um fork do repositório
+2. Crie uma branch para sua feature:
+   ```sh
+   git checkout -b minha-feature
+   ```
+3. Faça as alterações e commit:
+   ```sh
+   git commit -m "Adiciona nova feature"
+   ```
+4. Envie as mudanças:
+   ```sh
+   git push origin minha-feature
+   ```
+5. Abra um Pull Request
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Próximos Passos
+- Implementar a Landing Page
+- Ajustar o design e responsividade
+- Adicionar a seção de projetos
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
